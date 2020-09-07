@@ -43,8 +43,8 @@ export default {
   color: #2c3e50;
   background: repeating-linear-gradient(
 45deg,
-#dbdbdb,
-#dbdbdb 3px,
+#c9c8c8,
+#c9c8c8 3px,
 #a3a3a3 3px,
 #a3a3a3 6px)
 }
@@ -67,7 +67,7 @@ a, a:hover{
 }
 .linha {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 20px;
   margin-bottom: 30px;
   

@@ -56,7 +56,7 @@ export default {
 .conversor {
     margin: 0 auto;
     padding: 20px;
-    max-width: 300px;
+    max-width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #fff;
 }

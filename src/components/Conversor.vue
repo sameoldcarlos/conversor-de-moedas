@@ -1,7 +1,7 @@
 <template>
   <div class="conversor">
     <h2 id="de-para">{{moedaA}} Para {{moedaB}}</h2>
-    <input type="number" v-model="moedaA_value" :placeholder="moedaA" @keyup="converter">
+    <input type="number" v-model="moedaA_value" :placeholder="moedaA" @keyup.enter="converter">
     <button type="button" class="btn btn-success" @click="converter">
         <span class="fas fa-exchange-alt"></span>
     </button>
